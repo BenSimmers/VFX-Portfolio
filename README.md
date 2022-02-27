@@ -1,3 +1,3 @@
 # VFX-Portfolio
 VFX Portfolio
-https://ben-s-lgtm.github.io/VFX-Portfolio/
+https://ben-s-lgtm.github.io/VFX-Portfolio/index.html
