@@ -1,16 +1,13 @@
 
+# VFX Portfolio
 
-## render desert.png
+## templerender.png
 
-![render desert.png](render desert.png)
+![templerender.png](templerender.png)
 
 ## dunes.png
 
 ![dunes.png](dunes.png)
-
-## temple render.png
-
-![temple render.png](temple render.png)
 
 ## house.png
 
@@ -31,4 +28,8 @@
 ## Picture2.png
 
 ![Picture2.png](Picture2.png)
+
+## renderdesert.png
+
+![renderdesert.png](renderdesert.png)
 
