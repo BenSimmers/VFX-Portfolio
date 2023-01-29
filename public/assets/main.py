@@ -18,4 +18,4 @@ with open("/Users/bensimmers/Documents/projects/VFX-Portfolio/README.md", "w") a
     readme.write(readme_contents)
     readme.close()
 
-#print(readme_contents)
+print(readme_contents)

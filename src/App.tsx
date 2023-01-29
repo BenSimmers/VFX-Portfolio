@@ -13,22 +13,21 @@ function App() {
     return {
       thumbnailURL: images(key),
       largeURL: images(key),
-      alt: 'image'
+      alt: 'image',
+      title: 'image',
+      width: 2000,
+      height: 1000
     }
   });
-
-
-
     return (
+    <div style={{padding: 100}}>
     <div>
       <SimpleGallery
         galleryID="gallery"
-        images={[
-          //parse in the images and you can zoom in and out
-          ...imageList
-          ]
+        images={[...imageList]
         }
         />
+    </div>
     </div>
   );
 }
