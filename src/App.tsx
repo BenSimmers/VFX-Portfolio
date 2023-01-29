@@ -15,12 +15,12 @@ function App() {
       largeURL: images(key),
       alt: 'image',
       title: 'image',
-      width: 2000,
-      height: 1000
+      width: 1400,
+      height: 700
     }
   });
     return (
-    <div style={{padding: 100}}>
+    <div>
     <div>
       <SimpleGallery
         galleryID="gallery"
