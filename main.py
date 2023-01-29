@@ -4,7 +4,7 @@ import os
 import urllib.parse
 
 
-files = os.listdir("/Users/bensimmers/Documents/projects/VFX-Portfolio/photos")
+files = os.listdir("/Users/bensimmers/Documents/projects/VFX-Portfolio/public/assets")
 
 #image_ext = '".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webm"'
 
