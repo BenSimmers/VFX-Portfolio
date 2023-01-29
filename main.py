@@ -4,7 +4,7 @@ import os
 import urllib.parse
 
 
-files = os.listdir("/Users/bensimmers/Documents/projects/Quick-Notes/VFX-Portfolio")
+files = os.listdir("/Users/bensimmers/Documents/projects/VFX-Portfolio/photos")
 
 #image_ext = '".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webm"'
 
@@ -14,7 +14,7 @@ for item in files:
     if item.endswith(".jpg") or item.endswith(".jpeg") or item.endswith(".png") or item.endswith(".bmp") or item.endswith(".gif") or item.endswith(".webm"):
         readme_contents += str(f'## {item}\n\n![{item}]({urllib.parse.quote(item)})\n\n')
         
-with open("/Users/bensimmers/Documents/projects/Quick-Notes/VFX-Portfolio/README.md", "w") as readme:
+with open("/Users/bensimmers/Documents/projects/VFX-Portfolio/README.md", "w") as readme:
     readme.write(readme_contents)
     readme.close()
 
