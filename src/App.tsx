@@ -6,14 +6,13 @@ import HeaderTitle from "./components/HeaderTitle";
 import Footer from "./components/Footer";
 
 function App() {
-  return ( 
-    <div>
-      <HeaderTitle/>
-      <Gallery/>
-      <Footer/>
-    </div>
+  return (
+    <>
+      <HeaderTitle />
+      {/* <Gallery /> */}
+      {/* <Footer /> */}
+    </>
   );
 }
-
 
 export default App;
