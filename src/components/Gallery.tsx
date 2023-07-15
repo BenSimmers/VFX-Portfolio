@@ -1,5 +1,23 @@
 import React, { useEffect } from "react";
 
+type ImageProps = {
+  src: string;
+  alt: string;
+};
+
+const Image = (props: ImageProps) => {
+  return (
+    <div className="  rounded overflow-hidden shadow-lg">
+      <img
+        src={props.src}
+        alt={props.alt}
+        loading="lazy"
+        className="w-full h-64 object-cover"
+      />
+    </div>
+  );
+};
+
 export default function Gallery() {
   const images = require.context(
     "../../public/assets",
@@ -41,7 +59,7 @@ export default function Gallery() {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
         {imageList.map((image, index) => (
           <div key={index} className="p-4">
-            <img alt="gallery" src={image} loading="lazy" style={{ width: "100%" }} />
+            <Image src={image} alt="gallery" />
           </div>
         ))}
       </div>
